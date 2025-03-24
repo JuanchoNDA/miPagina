@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(2, 1, 0);
+    background-image: url("593d6f2e-42a4-469b-81d3-1d29f47d9971.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 250%;
+}
+.Informacion{
+    margin-top: 15%;
+    margin-left: 5%;
+    background: linear-gradient(to right, rgb(44, 24, 2), rgb(0, 0, 0));
+    padding: 5%;
+    margin-right: 25%;
+    opacity: 0.7;
+}
+.PanelDeUsuario{
+    background-color: rgb(255, 213, 151);
+    opacity: 0.6;
+}
+.OpcionesDeUsuario{
+    display: flex;
+    list-style: none;
+    gap: 2%;
+}
+.DatoPersonal{
+    color: rgb(255, 255, 255);
+}
+.BotonProyectos{
+    padding: 2%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+.BotonEstudios{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
