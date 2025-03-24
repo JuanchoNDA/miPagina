@@ -25,7 +25,7 @@ h1{
 .OpcionesDeUsuario{
     display: flex;
     list-style: none;
-    gap: 2%;
+    gap: 5%;
 }
 .DatoPersonal{
     color: rgb(255, 255, 255);
