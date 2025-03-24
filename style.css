@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
 h1{
     color: white;
     font-size: 250%;
@@ -26,6 +27,13 @@ h1{
     display: flex;
     list-style: none;
     gap: 5%;
+}
+.Link{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+.Link:hover:hover{
+    color: rgb(255, 70, 70);
 }
 .DatoPersonal{
     color: rgb(255, 255, 255);
