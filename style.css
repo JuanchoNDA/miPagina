@@ -18,7 +18,16 @@ h1{
     padding: 5%;
     margin-right: 25%;
     opacity: 0.7;
+    position: relative;
+    animation: mover forwards 10s;
 }
+@keyframes mover{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10vw);
+}}
 .PanelDeUsuario{
     background-color: rgb(255, 213, 151);
     opacity: 0.6;
