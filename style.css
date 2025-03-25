@@ -60,3 +60,17 @@ h1{
     background-color: transparent;
     color: white;
 }
+.ico{
+    width: 30px;
+    height: auto;
+    display: flex;
+}
+.userRed{
+    list-style: none;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: flex-end; /* Mueve los íconos a la derecha */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    margin-right: 10px;
+}
